@@ -1,1 +1,1 @@
-![example] (https://github.com/Oeufhp/simple-craftjs/blob/master/example.gif)
+<img src='./example.gif' width='300px'>
