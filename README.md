@@ -1,1 +1,1 @@
-![] ([example.gif](https://github.com/Oeufhp/simple-craftjs/blob/master/example.gif))
+![] (https://github.com/Oeufhp/simple-craftjs/blob/master/example.gif)
