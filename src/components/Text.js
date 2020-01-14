@@ -30,23 +30,6 @@ const Text = ({text, fontSize}) => {
           tagName="p"
           style={{fontSize: `${fontSize}px`}}
         />
-        {
-          selected && (
-            <FormControl className='text-additional-settings' size="small">
-              <FormLabel component="legend">Font Size</FormLabel>
-              <Slider
-                defaultValue={fontSize}
-                step={1}
-                min={7}
-                max={50}
-                valueLabelDisplay="auto"
-                onChange={(_, value) => {
-                  setProp(props => props.fontSize = value)
-                }}
-              />
-            </FormControl>
-          )
-        }
       </div>
   )
 }
