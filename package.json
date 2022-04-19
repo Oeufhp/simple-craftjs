@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craftjs/core": "^0.1.0-beta.1",
-    "@material-ui/core": "^4.8.3",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^8.0.3",
-    "acorn": "^7.1.1",
+    "@craftjs/core": "^0.2.0-beta.3",
+    "@material-ui/core": "^4.12.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^14.1.1",
+    "acorn": "^8.7.0",
     "kind-of": "^6.0.3",
-    "material-ui": "^0.15.0",
-    "material-ui-color-picker": "^3.2.0",
+    "material-ui": "^0.20.2",
+    "material-ui-color-picker": "^3.5.1",
     "minimist": "^1.2.6",
-    "react": "^16.12.0",
-    "react-contenteditable": "^3.3.3",
-    "react-dom": "^16.12.0",
-    "react-scripts": "^4.0.3",
-    "serialize-javascript": "^3.1.0"
+    "react": "^18.0.0",
+    "react-contenteditable": "^3.3.6",
+    "react-dom": "^18.0.0",
+    "react-scripts": "^5.0.1",
+    "serialize-javascript": "^6.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "yarn-upgrade-all": "^0.7.1"
   }
 }
